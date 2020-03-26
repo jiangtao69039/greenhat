@@ -23,7 +23,7 @@
 
 #### 做好上面的工作后,你就可以开始修改你本地的项目了
 
-* 务必在你本地项目中先执行 git checkout -b yourBranchName 来切换到一个新分支,不要再master分支直接做开发/修改
+* 务必在你本地项目中先执行 git checkout -b yourBranchName 来切换到一个新分支,不要在master分支直接做开发/修改
 * 在你新切出的分支上添加代码
 
 
@@ -32,7 +32,7 @@
 
 * 先在你本地执行 git checkout master  切换到master分支
 * 再执行git pull upstream master   这一步将原作者项目master分支最新内容拉取到你本地的master分支上(由于你的修改在你自己的新分支上,所以这里不会出现冲突)
-* 执行 git checkout yourBranchName 切到你自己的开发分支上
+* 执行 git checkout yourBranchName 切到你自己的开发分支上(记得你分支上的修改commit)
 * 执行 git rebase -i upstream/master  这一步是将原作者项目的新内容合并到你的开发分支上,可能会出现冲突
 * 如果有冲突就解决掉,再git add 添加后使用git rebase --continue继续完成之前由冲突引起的中断
 * 执行git push -f origin yourBranchName 来将你的分支提交到你的远程仓库
