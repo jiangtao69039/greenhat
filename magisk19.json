@@ -1,0 +1,16 @@
+{
+  "app": {
+    "version": "7.5.1",
+    "versionCode": "267",
+    "link": "https://github.com/zinamike/magisk19.2-git/raw/master/MagiskManager-v7.5.1.apk",
+    "note": "https://raw.githubusercontent.com/zinamike/magisk19.2-git/master/changelog.md"
+  },
+  "uninstaller": {
+    "link": "https://github.com/zinamike/magisk19.2-git/raw/master/Magisk-uninstaller-20200110.zip"
+  },
+"magisk": {
+    "version": "19.0-19000",
+    "versionCode": "19000",
+    "link": "https://raw.githubusercontent.com/yishisanren/magisk19/master/Magisk-v19.0.zip",
+  }
+}
